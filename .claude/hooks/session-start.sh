@@ -8,7 +8,7 @@ fi
 
 REPO_URL="https://github.com/ComposioHQ/awesome-claude-skills.git"
 CLONE_DIR="/tmp/awesome-claude-skills"
-SKILLS_DIR="${CLAUDE_PROJECT_DIR:-$(pwd)}/.agents/skills"
+SKILLS_DIR="${CLAUDE_PROJECT_DIR:-$(pwd)}/.claude/skills"
 
 mkdir -p "$SKILLS_DIR"
 
